@@ -16,7 +16,7 @@ class StaticController extends Controller
     }
         public function abode()
     {
-        return view('statics.abode');
+        return view('statics.about');
     }
 
 }

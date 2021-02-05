@@ -15,5 +15,5 @@ use App\Http\Controllers\StaticController;
 
 Route::get('/',[StaticController::class,'home'])->name('home');
 Route::get('help',[StaticController::class,'help'])->name('help');
-Route::get('abode',[StaticController::class,'abode'])->name('abode');
+Route::get('about',[StaticController::class,'about'])->name('about');
 
