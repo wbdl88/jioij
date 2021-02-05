@@ -14,7 +14,7 @@ class StaticController extends Controller
     {
         return view('statics.help');
     }
-        public function abode()
+        public function about()
     {
         return view('statics.about');
     }
